@@ -1,24 +1,33 @@
-# README
+# Emboozi API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A stories API that returns the story's title, its content or body and its slug. It is versioned from the start and is still under development.
 
-Things you may want to cover:
+## API Reference
 
-* Ruby version
+#### Get all stories
 
-* System dependencies
+```http
+  GET /api/v1/stories
+```
 
-* Configuration
+#### Get story
 
-* Database creation
+```http
+  GET /api/v1/stories/${id}
+```
 
-* Database initialization
+## Tech Stack
 
-* How to run the test suite
+**Server:** Ruby on Rails
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributing
 
-* Deployment instructions
+Contributions are always welcome!
 
-* ...
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+## Authors
+
+- [@Cathella](https://www.github.com/Cathella)
